@@ -40,9 +40,8 @@ src/
 ├── main.jsx                  # Entry point with Redux Provider
 ├── store.js                  # Configures global Redux store
 
-````
-
 🛠️ How to Run
+````
 ````
 ### 1. Clone the repository
 
