@@ -4,6 +4,30 @@ import { createSlice } from '@reduxjs/toolkit';
 // click the Add Product button to add a product to the cart, 
 // the information of product quantity entered by you should be available globally to any component.
 const CartSlice = createSlice({
+    name: 'cart',
+    initialState,
+    reducers:{
+        addItemToCart(state, action) {
+
+        },
+
+        removeItemFromCart(state, action){
+
+        },
+
+        clearCart(state){
+
+        },
+
+        increaseItemQuantity(state, action){
+
+        },
+
+        decreaseItemQuantity(state, action){
+
+        },
+
+    }
     
 });
 
