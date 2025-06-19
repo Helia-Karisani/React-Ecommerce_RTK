@@ -41,8 +41,7 @@ src/
 ├── store.js                  # Configures global Redux store
 
 🛠️ How to Run
-````
-````
+
 ### 1. Clone the repository
 
 ```bash
