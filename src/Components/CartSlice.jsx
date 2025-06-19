@@ -3,6 +3,10 @@ import { createSlice } from '@reduxjs/toolkit';
 //  apply logic for Redux toolkit to ensure that when you 
 // click the Add Product button to add a product to the cart, 
 // the information of product quantity entered by you should be available globally to any component.
+const initialState = {
+    cartItems: [],
+};
+
 const CartSlice = createSlice({
     name: 'cart',
     initialState, // The state passed into each reducer (like addItemToCart) represents the current state of the slice. 
@@ -53,7 +57,4 @@ export const {
 } = CartSlice.actions;
 export default CartSlice.reducer; // when something is imported from this file, only the reducer will be imported
 
-const initialState = {
-    cartItems: [],
-};
 
