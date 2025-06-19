@@ -43,13 +43,13 @@ src/
 ````
 
 ## 🛠️ How to Run
-
+````
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/Helia-Karisani/React-Ecommerce_RTK.git
 cd React-Ecommerce_RTK
-````
+```
 
 ### 2. Install dependencies
 
