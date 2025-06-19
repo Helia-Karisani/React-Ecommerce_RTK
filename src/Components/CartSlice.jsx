@@ -50,7 +50,7 @@ export const {
   increaseItemQuantity,
   decreaseItemQuantity,
 } = CartSlice.actions;
-export default CartSlice.reducer;
+export default CartSlice.reducer; // when something is imported from this file, only the reducer will be imported
 
 const initialState = {
     cartItems: [],
