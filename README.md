@@ -1,6 +1,6 @@
 # React/Vite/RTK/Redux
 
-markdown
+
 # 🛒 React-Ecommerce_RTK
 
 A simple E-Commerce web application built with **React** and **Redux Toolkit**, demonstrating global state management for shopping cart functionality, reward points (Super Coins), and product interaction.
