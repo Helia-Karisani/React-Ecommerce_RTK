@@ -63,11 +63,4 @@ npm run preview
 
 > Visit `http://localhost:4173` in your browser to use the application.
 
-## ✨ Credits
-
-This project is based on the **IBM Developer Skills Network** lab:
-*E-Commerce Data Rendering using Redux Toolkit*
-
-
-
 
