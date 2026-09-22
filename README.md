@@ -1,11 +1,11 @@
 # React/Vite/RTK/Redux
 
 
-# 🛒 React-Ecommerce_RTK
+# React-Ecommerce_RTK
 
 A simple E-Commerce web application built with **React** and **Redux Toolkit**, demonstrating global state management for shopping cart functionality, reward points (Super Coins), and product interaction.
 
-## 🚀 Features
+## Features
 
 - Display a list of products with name and price.
 - Add products to the cart with quantity management.
@@ -17,7 +17,7 @@ A simple E-Commerce web application built with **React** and **Redux Toolkit**, 
   - 20 coins for $200–299
   - 30 coins for $300+
 
-## 🧠 Tech Stack
+## Tech Stack
 
 - **React** (Functional components & hooks)
 - **Redux Toolkit** (createSlice, configureStore)
@@ -25,7 +25,7 @@ A simple E-Commerce web application built with **React** and **Redux Toolkit**, 
 - **Vite** (for fast bundling and preview)
 - **CSS** (component-level styling)
 
-## 📁 Project Structure
+## Project Structure
 
 
 
@@ -40,7 +40,7 @@ src/
 ├── main.jsx                  # Entry point with Redux Provider
 ├── store.js                  # Configures global Redux store
 
-🛠️ How to Run
+How to Run
 
 ### 1. Clone the repository
 
