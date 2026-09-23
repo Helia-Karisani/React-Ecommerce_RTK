@@ -1,9 +1,6 @@
-# React/Vite/RTK/Redux
-
-
 # React-Ecommerce_RTK
 
-A simple E-Commerce web application built with **React** and **Redux Toolkit**, demonstrating global state management for shopping cart functionality, reward points (Super Coins), and product interaction.
+A simple e-commerce web application built with **React** and **Redux Toolkit**, using global state management for the shopping cart, reward points (Super Coins), and product interaction.
 
 ## Features
 
@@ -19,28 +16,28 @@ A simple E-Commerce web application built with **React** and **Redux Toolkit**, 
 
 ## Tech Stack
 
-- **React** (Functional components & hooks)
+- **React** (functional components and hooks)
 - **Redux Toolkit** (createSlice, configureStore)
 - **React-Redux** (useSelector, useDispatch)
-- **Vite** (for fast bundling and preview)
-- **CSS** (component-level styling)
+- **Vite**
+- **CSS**
 
 ## Project Structure
 
-
-
+```
 src/
 ├── Components/
 │   ├── CartSlice.jsx         # Redux logic (reducers, actions)
-│   ├── ProductList.jsx       # Displays product list with Add to Cart
-│   ├── ShoppingCart.jsx      # Displays cart items with quantity control
-│   ├── SuperCoin.jsx         # Displays Super Coins based on total amount
-│   └── \*.css                 # Component-specific styles
+│   ├── ProductList.jsx       # Product list with Add to Cart
+│   ├── ShoppingCart.jsx      # Cart items with quantity control
+│   ├── SuperCoin.jsx         # Super Coins based on total amount
+│   └── *.css                 # Component styles
 ├── App.jsx                   # Main app layout
 ├── main.jsx                  # Entry point with Redux Provider
-├── store.js                  # Configures global Redux store
+├── store.js                  # Redux store
+```
 
-How to Run
+## How to Run
 
 ### 1. Clone the repository
 
@@ -61,8 +58,4 @@ npm install
 npm run preview
 ```
 
-> Visit `http://localhost:4173` in your browser to use the application.
-
-
-
-
+Then open `http://localhost:4173` in your browser.
